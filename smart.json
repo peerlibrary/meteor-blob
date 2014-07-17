@@ -1,0 +1,9 @@
+{
+  "name": "blob",
+  "description": "Polyfill for Blob to use in tests in PhantomJS",
+  "homepage": "https://github.com/peerlibrary/blob",
+  "author": "The PeerLibrary Project",
+  "version": "0.1.0",
+  "git": "https://github.com/peerlibrary/blob.git",
+  "packages": {}
+}
