@@ -6,5 +6,5 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.imply('peerlibrary:blob');
+  api.imply('peerlibrary:blob@0.1.2');
 });
