@@ -14,7 +14,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.1');
+  api.versionsFrom('METEOR@0.9.1.1');
   api.add_files([
     'Blob/Blob.js'
   ], 'client', {bare: true});
