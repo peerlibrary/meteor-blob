@@ -17,16 +17,6 @@ file add it to `api.use`. For example:
  
 ```
 Package.on_test(function (api) {
-  api.use(['blob'], 'client');
+  api.use(['peerlibrary:blob@0.1.4'], 'client');
 });
-```
-
-Add a dependency to the package in `smart.json` file as well:
-
-```
-{
-  "packages": {
-    "blob": {}
-  }
-}
 ```
