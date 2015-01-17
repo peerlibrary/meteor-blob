@@ -8,13 +8,13 @@
 
 Package.describe({
   summary: "Polyfill for Blob to use in tests in PhantomJS",
-  version: '0.1.3',
+  version: '0.1.4',
   name: 'peerlibrary:blob',
   git: 'https://github.com/peerlibrary/meteor-blob.git'
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.1.1');
+  api.versionsFrom('METEOR@1.0.2.1');
   api.add_files([
     'Blob/Blob.js'
   ], 'client', {bare: true});
